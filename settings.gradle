@@ -1,1 +1,1 @@
-include ':app', ':breatheviewlibrary'
+include ':app', ':breatheviewlibrary', ':reatheviewLibrary', ':breatheviewibrary'

@@ -10,6 +10,7 @@ import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.os.Handler;
 import android.util.AttributeSet;
@@ -23,15 +24,14 @@ import android.view.View;
  */
 
 public class BreatheView extends View implements ValueAnimator.AnimatorUpdateListener {
-
     /**
      * 扩散圆圈颜色
      */
-    private int mDiffusionColor = getResources().getColor(R.color.colorAccent);
+    private int mDiffusionColor = Color.parseColor("#303F9F");
     /**
      * 圆圈中心颜色
      */
-    private int mCoreColor = getResources().getColor(R.color.colorPrimary);
+    private int mCoreColor = Color.parseColor("#FF4081");
 
     /**
      * 中心圆半径

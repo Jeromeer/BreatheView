@@ -1,4 +1,4 @@
-package com.jianfeng.breatheview;
+package com.example.breatheview;
 
 import org.junit.Test;
 

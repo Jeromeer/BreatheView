@@ -1,4 +1,4 @@
-package com.jianfeng.breatheview;
+package com.example.breatheview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.jianfeng.breatheview.test", appContext.getPackageName());
+        assertEquals("com.example.breatheview.test", appContext.getPackageName());
     }
 }

@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BreatheView.iml" filepath="$PROJECT_DIR$/BreatheView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/breatheviewibrary/breatheviewibrary.iml" filepath="$PROJECT_DIR$/breatheviewibrary/breatheviewibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/breatheviewlibrary/breatheviewlibrary.iml" filepath="$PROJECT_DIR$/breatheviewlibrary/breatheviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reatheviewLibrary/reatheviewLibrary.iml" filepath="$PROJECT_DIR$/reatheviewLibrary/reatheviewLibrary.iml" />
     </modules>
   </component>
 </project>
