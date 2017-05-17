@@ -19,6 +19,21 @@ Step 2. Add the dependency
 	        compile 'com.github.jianfeng318:BreatheView:0.1.2'
 	}
 
+###效果
+![](https://github.com/jianfeng318/BreatheView/blob/master/screenshots/demo.gif)
 
 
 
+####在使用时候直接findViewById,拿到view之后需要初始化
+
+ ```
+ brv.setInterval(2000) //设置闪烁间隔时间
+                .setCoreRadius(5f)//设置中心圆半径
+                .setDiffusMaxWidth(300f)//设置闪烁圆的最大半径
+                .setDiffusColor(Color.parseColor("#0cf465"))//设置闪烁圆的颜色
+                .setCoreColor(Color.parseColor("#f40c3a"))//设置中心圆的颜色
+                .onStart();
+ ```
+
+
+[我的博客](http://www.jianshu.com/u/0b440912217a)
