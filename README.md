@@ -2,7 +2,7 @@
 呼吸灯闪烁效果的自定义View
 
 
-##如何使用
+#如何使用
 
 
 Add it in your root build.gradle at the end of repositories:
@@ -19,12 +19,13 @@ Step 2. Add the dependency
 	        compile 'com.github.jianfeng318:BreatheView:0.1.2'
 	}
 
-###效果
+**效果**
+
 ![](https://github.com/jianfeng318/BreatheView/blob/master/screenshots/demo.gif)
 
 
 
-####在使用时候直接findViewById,拿到view之后需要初始化
+***在使用时候直接findViewById,拿到view之后需要初始化***
 
  ```
  brv.setInterval(2000) //设置闪烁间隔时间
@@ -35,6 +36,6 @@ Step 2. Add the dependency
                 .onStart();
  ```
 
-####欢迎fork,欢迎star,有问题可以加QQ:262607095交流
+#欢迎fork,欢迎star,有问题可以加QQ:262607095交流
 
 [我的博客](http://www.jianshu.com/u/0b440912217a)
