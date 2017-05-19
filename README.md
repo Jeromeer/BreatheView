@@ -2,7 +2,7 @@
 呼吸灯闪烁效果的自定义View
 
 
-** 如何使用 **
+**如何使用**
 
 
 Add it in your root build.gradle at the end of repositories:
@@ -19,7 +19,7 @@ Step 2. Add the dependency
 	        compile 'com.github.jianfeng318:BreatheView:0.1.2'
 	}
 
-** 效果 **
+**效果**
 
 ![](https://github.com/jianfeng318/BreatheView/blob/master/screenshots/demo.gif)
 
