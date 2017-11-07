@@ -16,7 +16,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.jianfeng318:BreatheView:0.1.2'
+	       compile 'com.github.Jeromeer:BreatheView:0.1.3'
 	}
 
 **效果**
